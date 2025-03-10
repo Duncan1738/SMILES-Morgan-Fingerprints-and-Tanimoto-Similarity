@@ -69,19 +69,10 @@ cd smiles-morgan-fingerprints
 
 
 2️⃣ Install Dependencies
-bash
-Copy
-Edit
 pip install rdkit pandas numpy
 3️⃣ Run the Python Script
-bash
-Copy
-Edit
 python compute_similarity.py
 🧪 Example Code
-python
-Copy
-Edit
 from rdkit import Chem
 from rdkit.Chem import AllChem, DataStructs
 
@@ -98,9 +89,6 @@ fingerprints = [AllChem.GetMorganFingerprintAsBitVect(mol, radius=2, nBits=1024)
 similarity = DataStructs.TanimotoSimilarity(fingerprints[0], fingerprints[1])
 print(f"Tanimoto Similarity between Ethanol & Propanol: {similarity:.4f}")
 📊 Example Output
-sql
-Copy
-Edit
 Tanimoto Similarity between Ethanol & Propanol: 0.6667
 Tanimoto Similarity between Ethanol & Butanol: 0.5000
 Tanimoto Similarity between Propanol & Butanol: 0.7500
