@@ -64,7 +64,7 @@ Where:
 
 ### 1️⃣ **Clone the Repository**
 ```bash
-git clone https://github.com/yourusername/smiles-morgan-fingerprints.git
+git clone https://github.com/Duncan1738/SMILES-Morgan-Fingerprints-and-Tanimoto-Similarity.git
 cd smiles-morgan-fingerprints
 
 
