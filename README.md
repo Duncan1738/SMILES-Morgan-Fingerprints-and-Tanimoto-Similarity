@@ -4,7 +4,7 @@ This project demonstrates how to **compute molecular fingerprints** using **RDKi
 
 ---
 
-## 📌 Key Concepts
+## Key Concepts
 
 ### **1️⃣ SMILES (Simplified Molecular Input Line Entry System)**
 **SMILES** is a string notation that represents chemical structures in a **compact, machine-readable format**.
