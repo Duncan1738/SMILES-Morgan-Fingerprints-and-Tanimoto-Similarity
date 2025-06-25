@@ -52,7 +52,7 @@ Where:
 
 ---
 
-## 🚀 Technologies Used
+## Technologies Used
 - **Python**
 - **RDKit** (Molecular processing)
 - **NumPy** (Array operations)
