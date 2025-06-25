@@ -1,4 +1,4 @@
-# 🧪 SMILES, Morgan Fingerprints, and Tanimoto Similarity
+# SMILES, Morgan Fingerprints, and Tanimoto Similarity
 
 This project demonstrates how to **compute molecular fingerprints** using **RDKit** and measure **molecular similarity** using the **Tanimoto coefficient**.
 
