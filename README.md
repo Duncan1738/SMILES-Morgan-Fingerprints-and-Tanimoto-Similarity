@@ -88,7 +88,7 @@ fingerprints = [AllChem.GetMorganFingerprintAsBitVect(mol, radius=2, nBits=1024)
 # Compute Tanimoto Similarity
 similarity = DataStructs.TanimotoSimilarity(fingerprints[0], fingerprints[1])
 print(f"Tanimoto Similarity between Ethanol & Propanol: {similarity:.4f}")
-📊 Example Output
+Example Output
 Tanimoto Similarity between Ethanol & Propanol: 0.6667
 Tanimoto Similarity between Ethanol & Butanol: 0.5000
 Tanimoto Similarity between Propanol & Butanol: 0.7500
