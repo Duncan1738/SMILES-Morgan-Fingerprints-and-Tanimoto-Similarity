@@ -72,7 +72,8 @@ cd smiles-morgan-fingerprints
 pip install rdkit pandas numpy
 3️⃣ Run the Python Script
 python compute_similarity.py
-🧪 Example Code
+---
+## ** Example Code **
 from rdkit import Chem
 from rdkit.Chem import AllChem, DataStructs
 
